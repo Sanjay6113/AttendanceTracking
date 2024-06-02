@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AttendenceTracking" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColor">@color/black</item><!--textview default text color-->
+        <item name="android:fontFamily">@font/roboto</item><!--font family for all type of text-->
+        <item name="android:textColorPrimary">@color/white</item><!--toolbar title text color-->
+    </style>
+
+    <style name="Theme.AttendenceTracking" parent="Base.Theme.AttendenceTracking" />
+</resources>
